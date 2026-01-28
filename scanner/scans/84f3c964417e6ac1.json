@@ -1,0 +1,11 @@
+{
+    "id": "84f3c964417e6ac1",
+    "user": "1",
+    "target": "119.235.12.202",
+    "wordlist": "C:\\xampp\\htdocs\\cyber\\scanner\\wordlists\\rockyou.txt.tar.gz",
+    "threads": 50,
+    "cmd": "\"C:\\Windows\\System32\\wsl.exe\" bash -lc \"gobuster dir -u  http:\/\/119.235.12.202  -w  C:\\xampp\\htdocs\\cyber\\scanner\\wordlists\\rockyou.txt.tar.gz  -t 50 -o  C:\\xampp\\htdocs\\cyber\\scanner\\scans\\gobuster_84f3c964417e6ac1.txt \"",
+    "outfile": "gobuster_84f3c964417e6ac1.txt",
+    "pid": "$!",
+    "started": 1759895672
+}
